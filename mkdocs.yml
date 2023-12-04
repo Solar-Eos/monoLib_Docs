@@ -3,15 +3,7 @@ site_url: https://solar-eos.github.io/monoLibrary/
 repo_name: Solar-Eos/monoLibrary
 repo_url: https://github.com/Solar-Eos/monoLibrary
 
-theme:
-  icon:
-    logo: material/database
-    repo: fontawesome/brands/git-alt
-  name: material
-  favicon: images/favicon.png
-  palette:
-    primary: "Deep Purple"
-    accent: "Deep Purple"
+theme: jekyll-theme-minimal
 
 nav:
   - Home: readme.md
@@ -22,7 +14,7 @@ nav:
   - Troubleshooting: troubleshooting.md
   - API: api.md
 
-markdown_extensions:
-  - admonition
-  - pymdownx.highlight
-  - pymdownx.superfences
+# markdown_extensions:
+#   - admonition
+#   - pymdownx.highlight
+#   - pymdownx.superfences
